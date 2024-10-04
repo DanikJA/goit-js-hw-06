@@ -1,21 +1,27 @@
-// const ingredients = [
-//   'Potatoes',
-//   'Mushrooms',
-//   'Garlic',
-//   'Tomatos',
-//   'Herbs',
-//   'Condiments',
-// ];
+const ingredients = [
+  'Potatoes',
+  'Mushrooms',
+  'Garlic',
+  'Tomatos',
+  'Herbs',
+  'Condiments',
+];
 
-// // const option = ingredients[0];
-// // console.log(option);
+// const option = ingredients[0];
+// console.log(option);
 
-// const element = ingredients.map(option{})
-// const creatingElement = document.createElement('li');
-// creatingElement.textContent = option;
-// creatingElement.classList.add('item')
+const findEl = document.querySelector('#ingredients')
 
-// console.log(creatingElement);
-// // const creatingList = element => {
+const element = ingredients.map(option => {
+const creatingElement = document.createElement('li');
+creatingElement.textContent = option;
+    creatingElement.classList.add('item');
 
-// // };
+    return creatingElement;
+})
+
+console.log(element);
+
+findEl.append(...element);
+
+
