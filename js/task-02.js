@@ -21,7 +21,6 @@ creatingElement.textContent = option;
 })
 
 console.log(element);
-
 findEl.append(...element);
 
 
