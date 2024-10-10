@@ -10,7 +10,7 @@ valInput.addEventListener('blur', (event) => {
         valInput.classList.add('valid');
     } else {
         valInput.classList.add('invalid');
-        valInput.classList.remove('invalid');
+        valInput.classList.remove('valid');
     }
 });
 
