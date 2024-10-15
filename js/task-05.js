@@ -16,7 +16,6 @@
 //     }
 // }
 
-
 // // Option 2
 
 const nameInputBtn = document.querySelector('#name-input');

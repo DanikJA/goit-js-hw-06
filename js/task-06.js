@@ -1,6 +1,5 @@
 const valInput = document.querySelector('#validation-input');
 
-
 valInput.addEventListener('blur', (event) => {
     const correctLength = parseInt(valInput.getAttribute('data-length'), 10)
     const currentLength = event.currentTarget.value.length;
@@ -13,18 +12,6 @@ valInput.addEventListener('blur', (event) => {
         valInput.classList.remove('valid');
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

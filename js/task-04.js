@@ -22,7 +22,6 @@
 //     addingFn();
 // })
 
-
 // Option 2
 
 let counterValue = 0;

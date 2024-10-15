@@ -15,7 +15,6 @@ const images = [
 
 
 
-
 const getEl = document.querySelector('.gallery');
 
 const element = images.map(({ url, alt }) => {
